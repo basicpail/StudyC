@@ -10,10 +10,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+void my_gets(char* str, int size);
 // 메인함수
 int main(void) 
 {
+    char str[7];
+
+    my_gets(str, sizeof(str));
+    printf("입력한 문자열 : %s\n", str);
+    
     /*char str[2];
     int ch;
     char* ps = str;
@@ -147,4 +152,19 @@ int main(void)
 	*/
 	system("pause");
 	return EXIT_SUCCESS;
+}
+void my_gets(char* str, int size)
+{
+    int ch;
+    int i = 0;
+
+    ch = getchar();
+    while ((ch != '\n') && (i < size - 1))
+    {
+        str[i] = ch;
+        i++;
+        ch = getchar();
+        printf("%d  %c\n", ch,ch);
+    }
+    str[i] = '\0';
 }
