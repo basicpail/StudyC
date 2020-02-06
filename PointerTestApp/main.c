@@ -13,28 +13,37 @@
 // 메인함수
 int main(void) 
 {
-    int a = 10;
+    /*int a = 10;
     int* pa = &a;
     double* pd = pa;
 
     printf("a : %d\n", a);
     printf("pa : %d\n", *pa);
-    printf("pd : %lf\n", *pd);
-    //int a=10, b = 20;
-    //const int* pa = &a;
-    //int c;
+    printf("pd : %lf\n", *pd);*/
 
-    //printf("변수 a의 주소: %d\n", &a);
-    //printf("변수 a의 주소': %d\n", pa);
-    //printf("변수 a: %d\n", &pa);
-    //printf("변수 a의 값: %d\n", *pa);
-    //c = &b;
-    //printf("변수 b의 값: %d\n", c);
-    //pa = &b;
-    //printf("변수 b의 값: %d\n", *pa);
-    //pa = &a;
-    //a = 30;
-    //printf("a의 값: %d\n", *pa);
+
+
+
+
+    int a=10, b = 20;
+    int* pa = &b;
+    int c;
+
+    *pa = a;
+
+    
+
+    printf("변수 a의 주소: %d\n", &a);
+    printf("변수 a의 주소': %d\n", pa);
+    printf("변수 a: %d\n", &pa);
+    printf("변수 a의 값: %d\n", *pa);
+    c = &b;
+    printf("변수 b의 값: %d\n", c);
+    pa = &b;
+    printf("변수 b의 값: %d\n", *pa);
+    pa = &a;
+    a = 30;
+    printf("a의 값: %d\n", *pa);
 
     
     
