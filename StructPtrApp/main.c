@@ -34,8 +34,21 @@ int main(void)
 
     printf("head -> num: %d\n", head->num);
     printf("head ->next-> num: %d\n", head->next->num);
+    printf("head->next:%p\n", head->next);
+    ;    printf("a.next: %p\n", a.next);
+    printf("b.address:%p\n", &b);
+
+    printf("list all:");
+    current = head;
+    while (current != NULL)
+    {
+        printf("%d  ", current->num);
+        current = current->next;
+    }
+    printf("\n");
    /* struct score yuni = { 85, 90, 100 };
-    struct score* ps = &yuni;
+  
+  struct score* ps = &yuni;
     
     printf("국어 %d\n", (*ps).kor);
     printf("영어 %d\n", ps ->eng);
