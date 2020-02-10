@@ -1,0 +1,10 @@
+banana
+apple
+kiwi
+straw
+straw
+apple
+exit
+sdf
+dke
+melon

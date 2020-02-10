@@ -15,7 +15,7 @@
 int main(void) 
 {
 
-    int* pi;
+    /*int* pi;
     int i, sum = 0;
 
     pi = (int*)malloc(sizeof(int));
@@ -35,12 +35,13 @@ int main(void)
 
     printf("다섯 명의 평균 나이: %.1lf\n", (sum/5.0));
 
-    free(pi);
+    free(pi);*/
     
-    /*int* pi;
+    int* pi;
     double* pd;
 
     pi = (int *)malloc(sizeof(int));
+    
     if (pi == NULL)
     {
         printf("#메모리가 부족합니다.\n");
@@ -56,7 +57,7 @@ int main(void)
     printf("실수형으로 사용: %.1lf\n", * pd);
 
     free(pi);
-    free(pd);*/
+    free(pd);
 
 
 	system("pause");
