@@ -15,24 +15,24 @@ enum season{SPR, SUM, FAL, WIN};
 
 int main(void) 
 {
-    enum season ss;
-    char* pc = NULL;
+    //enum season ss;
+    //char* pc = NULL;
 
-    ss = spring;
+    //ss = spring;
 
-    switch (ss)
-    {
-    case SPR:
-        break;
-    case SUM:
-        break;
-    case FAL:
-        break;
-    case WIN:
-        break;
-    default:
-        break;
-    }
+    //switch (ss)
+    //{
+    //case SPR:
+    //    break;
+    //case SUM:
+    //    break;
+    //case FAL:
+    //    break;
+    //case WIN:
+    //    break;
+    //default:
+    //    break;
+    //}
 	system("pause");
 	return EXIT_SUCCESS;
 }
