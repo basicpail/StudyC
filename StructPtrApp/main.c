@@ -32,10 +32,14 @@ int main(void)
     a.next = &b;
     b.next = &c;
 
+    
+
     printf("head -> num: %d\n", head->num);
+    printf("head ->next: %d\n", head->next);
+    printf("bÀÇ ÁÖ¼Ò %d\n", &b);
     printf("head ->next-> num: %d\n", head->next->num);
     printf("head->next:%p\n", head->next);
-    ;    printf("a.next: %p\n", a.next);
+    printf("a.next: %p\n", a.next);
     printf("b.address:%p\n", &b);
 
     printf("list all:");
